@@ -1,0 +1,4 @@
+*.out
+*.out.gz
+CMGDEM.hdf
+
