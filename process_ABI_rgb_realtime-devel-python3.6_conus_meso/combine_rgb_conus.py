@@ -481,7 +481,7 @@ def combine_rgb(output_path='./',fnred=None,fngreen=None,fnblue=None,fnir=None, 
     ctime_string = iyear +' '+cmonth+' '+iday+'  '+itime+' GMT'
     ctime_file_string = iyear + imonth + iday + itimehr + itimemn + itimesc + "_" + sunique
     list_string = sunique + '.jpg'
-    time_string = 'GOES-17 Rayleigh Corrected Reflectance\nRed/Veggie Pseudo Green/Blue Color\n%s '%ctime_string
+    time_string = 'GOES-West Rayleigh Corrected Reflectance\nRed/Veggie Pseudo Green/Blue Color\n%s '%ctime_string
 #    time_string = time_string+"\nPRELIMINARY, NON-OPERATIONAL DATA"
     from matplotlib import patheffects
     outline_effect = [patheffects.withStroke(linewidth=2, foreground='black')]
